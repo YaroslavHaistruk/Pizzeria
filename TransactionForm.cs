@@ -12,12 +12,16 @@ using System.Windows.Forms;
 
 namespace Pizzeria
 {
-    
+    /// <summary> 
+    /// TransactionForm : Form
+    /// </summary>
     public partial class TransactionForm : Form
     {
         private Transaction data = new Transaction();
 
-        
+        /// <summary> 
+        /// transactionData
+        /// </summary>
         public TransactionForm(Transaction transactionData)
         {
             this.data = transactionData;
@@ -37,7 +41,9 @@ namespace Pizzeria
                 }
             }
         }
-        
+        /// <summary> 
+        /// TransactionForm
+        /// </summary>
         public TransactionForm()
         {
             InitializeComponent();
